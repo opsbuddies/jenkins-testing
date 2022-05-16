@@ -3,7 +3,7 @@
 set -e
 
 r_d(){
-	if [ $4 == "deepak" ]
+	if [ "$4" -eq "VMone" ]
 	then
 		port=$1
 	else

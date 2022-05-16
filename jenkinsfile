@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-			export b_name=dev
-			export instance=happy
+			export b_name=qa
+			export instance=VMtwo
 			bash abc.sh
 		'''
             }
