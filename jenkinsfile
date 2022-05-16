@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                sh '''
+			export b_name=dev
+			export instance=deepak
+			bash abc.sh
+		'''
             }
         }
         stage('Test') {
