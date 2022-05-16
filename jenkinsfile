@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
 			export b_name=dev
-			export instance=deepak
+			export instance=happy
 			bash abc.sh
 		'''
             }
