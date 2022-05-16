@@ -1,6 +1,6 @@
 #!bin/bash
 
-set -e
+set -exv
 
 r_d(){
 	if [ "$4" == "VMone" ]
